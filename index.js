@@ -5,6 +5,7 @@ const app = express()
 const PORT = process.env.PORT || 3003
 const upload = multer()
 const pdfParse = require('pdf-parse')
+const fetch = require('node-fetch')
 
 app.use(express.json())
 
